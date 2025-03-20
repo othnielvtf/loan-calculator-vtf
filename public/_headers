@@ -1,0 +1,14 @@
+# Headers for all files
+/*
+  X-Frame-Options: DENY
+  X-XSS-Protection: 1; mode=block
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: no-referrer-when-downgrade
+
+# Headers for JavaScript files
+/assets/*.js
+  Content-Type: application/javascript; charset=utf-8
+
+# Headers for CSS files
+/assets/*.css
+  Content-Type: text/css; charset=utf-8
